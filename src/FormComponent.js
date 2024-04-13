@@ -69,31 +69,31 @@ const FormComponent = () => {
 
       <div className="form-group">
         <label>Amount:</label>
-        <input type="text" name="Amount" value={inputs.input1} onChange={handleInputChange} />
+        <input type="text" name="Amount" value={inputs.Amount} onChange={handleInputChange} />
       </div>
 
       <div className="form-group">
         <label>Trips:</label>
-        <input type="text" name="Trips" value={inputs.input1} onChange={handleInputChange} />
+        <input type="text" name="Trips" value={inputs.Trips} onChange={handleInputChange} />
       </div>
 
       <div className="form-group">
         <label>KM Reading:</label>
-        <input type="text" name="KmReading" value={inputs.input1} onChange={handleInputChange} />
+        <input type="text" name="KmReading" value={inputs.KmReading} onChange={handleInputChange} />
       </div>
 
       <div className="form-group">
         <label>Reason:</label>
-        <input type="text" name="Reason" value={inputs.input1} onChange={handleInputChange} />
+        <input type="text" name="Reason" value={inputs.Reason} onChange={handleInputChange} />
       </div>
       
       <div className="form-group">
         <label>Paid By:</label>
         <select name="PaidBy" value={inputs.dropdown1} onChange={handleDropdownChange}>
           <option value="">Select option</option>
-          <option value="option1">Mahesh</option>
-          <option value="option2">DHR</option>
-          <option value="option3">Harish</option>
+          <option value="Mahesh">Mahesh</option>
+          <option value="DHR">DHR</option>
+          <option value="Harish">Harish</option>
         </select>
       </div>
       
@@ -101,13 +101,13 @@ const FormComponent = () => {
         <label>Type:</label>
         <select name="Type" value={inputs.dropdown2} onChange={handleDropdownChange}>
           <option value="">Select option</option>
-          <option value="option1">CNG</option>
-          <option value="option2">Petrol</option>
-          <option value="option3">Other</option>
-          <option value="option2">Salary</option>
-          <option value="option3">NPT Credit</option>
-          <option value="option2">Holiday</option>
-          <option value="option3">Leave</option>
+          <option value="CNG">CNG</option>
+          <option value="Petrol">Petrol</option>
+          <option value="Other">Other</option>
+          <option value="Salary">Salary</option>
+          <option value="NPT Credit">NPT Credit</option>
+          <option value="Holiday">Holiday</option>
+          <option value="Leave">Leave</option>
         </select>
       </div>
       
